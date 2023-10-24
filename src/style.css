@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 0 2.5%;
+}
+
+.day {
+  /* height: 100px;
+  width: 100px; */
+  flex-direction: column;
+  border: 1px solid red;
+  
+}
+
+.flex{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event{
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgreen;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.calendar{
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid black
+}
+
+.week{
+  align-items: flex-start;
+}
+
+p{
+  margin:0px;
+  padding:10px;
+}
