@@ -7,8 +7,8 @@ body {
 }
 
 .day {
-  /* height: 100px;
-  width: 100px; */
+  /* height: 100px; */
+  width: 150px;
   flex-direction: column;
   border: 1px solid red;
   
@@ -33,6 +33,7 @@ body {
 .calendar{
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   border: 1px solid black
 }
 
