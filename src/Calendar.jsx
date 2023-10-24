@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
 import Week from "./Week.jsx";
 
-import { DAYS } from "./constants.js";
 
+const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 const Calendar = ({ data }) => {
     
@@ -20,7 +20,7 @@ const Calendar = ({ data }) => {
             currentWeek = []
         }
         //adding days to the currentweek
-        currentWeek.push(keys)
+        currentWeek.push(`${keys}`)
     }
  
     return(
