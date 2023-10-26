@@ -1,6 +1,8 @@
 import React from "react";
 import Day from "./Day.jsx";
 
+
+
 const Week = ({data, weekArray}) => {
 
     const sixDays=[]
